@@ -8,7 +8,12 @@ export default {
     format: 'iife'
   },
   plugins: [
-    serve(['dist', 'public']),
-    livereload({ watch: ['dist', 'public']})
+    serve({
+      open: true,
+      contentBase: ['dist', 'public']
+    }),
+    livereload({ 
+      watch: ['dist', 'public']
+    })
   ]
 }
