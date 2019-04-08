@@ -1,1 +1,1 @@
-# create-rollup-app
+# rollup-boilerplate
